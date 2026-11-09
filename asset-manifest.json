@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-19",
+  "assets": [
+    {
+      "id": "car-concept",
+      "name": "Car Concept",
+      "kind": "vehicle-glb",
+      "status": "downloaded-and-used",
+      "author": "Eric Chadwick / Darmstadt Graphics Group GmbH",
+      "copyright": "© 2024 Darmstadt Graphics Group GmbH",
+      "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarConcept",
+      "downloadUrl": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/CarConcept/glTF-Binary/CarConcept.glb",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseEvidenceUrl": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/CarConcept/README.md",
+      "localPath": "public/assets/cars/concept/CarConcept.glb",
+      "publicUrl": "/assets/cars/concept/CarConcept.glb",
+      "byteLength": 11778688,
+      "sha256": "c272098089d78c5cd9fd9f24ff50ee8acf8d932c55f2d55fc10adb6c8998966b",
+      "modified": true,
+      "changes": "Original GLB preserved byte-for-byte. Runtime changes: scale to 95%, rotate 180° to the shared vehicle heading, animate existing wheel pivots, tint car-paint/rim/interior materials, optional contrasting secondary panels. No branded S2000 model is represented or claimed.",
+      "notices": [
+        "Contains Khronos and 3D Commerce marks. © 2015 and © 2017 Khronos Group. Original logo notice is preserved in public/assets/cars/concept/KHRONOS-LOGO-LICENSE.txt; no endorsement is implied.",
+        "Upstream model began with a CC0 concept model by Unity Fan; the optimized model and textures distributed here are credited to Eric Chadwick / Darmstadt Graphics Group under CC BY 4.0."
+      ]
+    },
+    {
+      "id": "focus-r01-procedural",
+      "name": "FOCUS R01 procedural roadster, scenery and surface textures",
+      "kind": "original-procedural-art",
+      "status": "used",
+      "author": "FOCUS DRIVE project contributors",
+      "sourceUrl": null,
+      "license": "Project-original; no third-party model license asserted",
+      "licenseUrl": null,
+      "modified": false,
+      "changes": "Original continuously lofted body with wheel arches, open cockpit, windscreen, bucket seats, rollover hoops, five-spoke rotating wheels, LED lighting, mirrors and diffuser. Generated at runtime; used when GLB is unavailable and as a selectable cosmetic. Road, sea, trees, mountains, bridge, city and textures are also generated locally."
+    },
+    {
+      "kind": "engine-audio",
+      "status": "downloaded-and-used",
+      "author": "Provo rossi",
+      "copyright": "© Provo rossi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Ferrari_250_GTO%2C_Engine_Sound.ogg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseEvidenceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "modified": true,
+      "id": "engine-1",
+      "name": "Engine loop · idle/low",
+      "localPath": "public/audio/engine-1.wav",
+      "publicUrl": "/audio/engine-1.wav",
+      "byteLength": 97106,
+      "sha256": "c0ba48c84dbfff8dbfb2e898db262bbb80185252334c8d18c8c14a4a22578e72",
+      "changes": "Extracted a ~1.1s steady window measured at roughly 1154 rpm, highpassed at 55Hz, compressed, loudness-normalised, then looped over whole firing periods with a period-aligned crossfade. The runtime crossfades these layers and pitch-shifts them by engine speed. The source recording is not redistributed.",
+      "notices": [
+        "CC BY 4.0 requires attribution. Recorded from a Ferrari 250 GTO at a public event; Ferrari and the vehicle owner do not endorse this project."
+      ]
+    },
+    {
+      "kind": "engine-audio",
+      "status": "downloaded-and-used",
+      "author": "Provo rossi",
+      "copyright": "© Provo rossi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Ferrari_250_GTO%2C_Engine_Sound.ogg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseEvidenceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "modified": true,
+      "id": "engine-2",
+      "name": "Engine loop · low-mid",
+      "localPath": "public/audio/engine-2.wav",
+      "publicUrl": "/audio/engine-2.wav",
+      "byteLength": 97318,
+      "sha256": "e1917c80474b89c74b043303780c45966f4e3d679f65365d04415418a64cda9a",
+      "changes": "Extracted a ~1.1s steady window measured at roughly 1542 rpm, highpassed at 55Hz, compressed, loudness-normalised, then looped over whole firing periods with a period-aligned crossfade. The runtime crossfades these layers and pitch-shifts them by engine speed. The source recording is not redistributed.",
+      "notices": [
+        "CC BY 4.0 requires attribution. Recorded from a Ferrari 250 GTO at a public event; Ferrari and the vehicle owner do not endorse this project."
+      ]
+    },
+    {
+      "kind": "engine-audio",
+      "status": "downloaded-and-used",
+      "author": "Provo rossi",
+      "copyright": "© Provo rossi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Ferrari_250_GTO%2C_Engine_Sound.ogg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseEvidenceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "modified": true,
+      "id": "engine-3",
+      "name": "Engine loop · mid-high",
+      "localPath": "public/audio/engine-3.wav",
+      "publicUrl": "/audio/engine-3.wav",
+      "byteLength": 97022,
+      "sha256": "f56360db74573e207112272e65248ddba2e1b1f99a637f38af1aa348fc962e46",
+      "changes": "Extracted a ~1.1s steady window measured at roughly 3021 rpm, highpassed at 55Hz, compressed, loudness-normalised, then looped over whole firing periods with a period-aligned crossfade. The runtime crossfades these layers and pitch-shifts them by engine speed. The source recording is not redistributed.",
+      "notices": [
+        "CC BY 4.0 requires attribution. Recorded from a Ferrari 250 GTO at a public event; Ferrari and the vehicle owner do not endorse this project."
+      ]
+    },
+    {
+      "kind": "engine-audio",
+      "status": "downloaded-and-used",
+      "author": "Provo rossi",
+      "copyright": "© Provo rossi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Ferrari_250_GTO%2C_Engine_Sound.ogg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenseEvidenceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "modified": true,
+      "id": "engine-4",
+      "name": "Engine loop · high",
+      "localPath": "public/audio/engine-4.wav",
+      "publicUrl": "/audio/engine-4.wav",
+      "byteLength": 97166,
+      "sha256": "89ffbe5dbbfadc9e1ac5a4739d3ec78aed13fb8f5b166a89a6aceb14ccf57b7b",
+      "changes": "Extracted a ~1.1s steady window measured at roughly 5959 rpm, highpassed at 55Hz, compressed, loudness-normalised, then looped over whole firing periods with a period-aligned crossfade. The runtime crossfades these layers and pitch-shifts them by engine speed. The source recording is not redistributed.",
+      "notices": [
+        "CC BY 4.0 requires attribution. Recorded from a Ferrari 250 GTO at a public event; Ferrari and the vehicle owner do not endorse this project."
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "name": "[FREE] Honda S2000 - S2K",
+      "author": "WastingMyCars / zxargon",
+      "sourceUrl": "https://sketchfab.com/3d-models/free-honda-s2000-s2k-bbcc1cbb7f774b8ab9e94639a058e188",
+      "pageLicenseVerified": "CC BY 4.0",
+      "pageLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "downloadAttemptUrl": "https://api.sketchfab.com/v3/models/bbcc1cbb7f774b8ab9e94639a058e188/download",
+      "outcome": "HTTP 401: Authentication credentials were not provided. No login or credentials requested; no geometry copied from viewer endpoints.",
+      "adopted": false,
+      "substitute": "car-concept"
+    }
+  ]
+}

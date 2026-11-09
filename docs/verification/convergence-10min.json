@@ -1,0 +1,475 @@
+{
+  "sampledAt": "2026-10-19T14:42:20.589Z",
+  "durationMs": 600000,
+  "challengeMode": true,
+  "mode": "OTC_HIGH_FIDELITY",
+  "runs": [
+    {
+      "profile": "mid",
+      "skill": {
+        "focus": 0.8,
+        "reactionMs": 320,
+        "jitterMs": 65,
+        "noiseM": 1.15
+      },
+      "quality": "LIMITED",
+      "botLineup": {
+        "seenEvents": 370,
+        "focusedEvents": 312
+      },
+      "finalLevels": {
+        "road": 62,
+        "sign": 41
+      },
+      "totalChanges": 150,
+      "changesInLast60s": 17,
+      "last60s": {
+        "observedAccuracyMean": 0.8164343032657736,
+        "observedAccuracyStd": 0.0010354725273917192,
+        "roadLevelStd": 4.161196409153929,
+        "roadRange": [
+          51,
+          65
+        ],
+        "samples": 30
+      },
+      "measured": {
+        "path": 0.9376388888890411,
+        "event": 0.6693766937669376,
+        "drive": 0.8169209010840945,
+        "target": 0.8127090301003345,
+        "levelChangesBeforeLast60s": 72
+      },
+      "trajectory": [
+        {
+          "t": 0,
+          "road": 20,
+          "sign": 29,
+          "drive": null,
+          "path": null
+        },
+        {
+          "t": 9,
+          "road": 23,
+          "sign": 29,
+          "drive": 0.55,
+          "path": 1
+        },
+        {
+          "t": 19,
+          "road": 29,
+          "sign": 34,
+          "drive": 0.807,
+          "path": 1
+        },
+        {
+          "t": 29,
+          "road": 30,
+          "sign": 37,
+          "drive": 0.836,
+          "path": 1
+        },
+        {
+          "t": 39,
+          "road": 32,
+          "sign": 40,
+          "drive": 0.831,
+          "path": 1
+        },
+        {
+          "t": 49,
+          "road": 34,
+          "sign": 43,
+          "drive": 0.837,
+          "path": 0.99
+        },
+        {
+          "t": 59,
+          "road": 34,
+          "sign": 49,
+          "drive": 0.815,
+          "path": 0.992
+        },
+        {
+          "t": 69,
+          "road": 34,
+          "sign": 51,
+          "drive": 0.83,
+          "path": 0.99
+        },
+        {
+          "t": 79,
+          "road": 35,
+          "sign": 53,
+          "drive": 0.841,
+          "path": 0.991
+        },
+        {
+          "t": 89,
+          "road": 39,
+          "sign": 53,
+          "drive": 0.842,
+          "path": 0.992
+        },
+        {
+          "t": 99,
+          "road": 45,
+          "sign": 54,
+          "drive": 0.84,
+          "path": 0.993
+        },
+        {
+          "t": 109,
+          "road": 49,
+          "sign": 52,
+          "drive": 0.841,
+          "path": 0.994
+        },
+        {
+          "t": 119,
+          "road": 50,
+          "sign": 50,
+          "drive": 0.832,
+          "path": 0.985
+        },
+        {
+          "t": 129,
+          "road": 50,
+          "sign": 47,
+          "drive": 0.831,
+          "path": 0.986
+        },
+        {
+          "t": 139,
+          "road": 50,
+          "sign": 45,
+          "drive": 0.829,
+          "path": 0.978
+        },
+        {
+          "t": 149,
+          "road": 50,
+          "sign": 43,
+          "drive": 0.831,
+          "path": 0.979
+        },
+        {
+          "t": 159,
+          "road": 51,
+          "sign": 44,
+          "drive": 0.832,
+          "path": 0.981
+        },
+        {
+          "t": 169,
+          "road": 53,
+          "sign": 45,
+          "drive": 0.837,
+          "path": 0.98
+        },
+        {
+          "t": 179,
+          "road": 59,
+          "sign": 43,
+          "drive": 0.832,
+          "path": 0.979
+        },
+        {
+          "t": 189,
+          "road": 60,
+          "sign": 41,
+          "drive": 0.831,
+          "path": 0.973
+        },
+        {
+          "t": 199,
+          "road": 58,
+          "sign": 37,
+          "drive": 0.828,
+          "path": 0.968
+        },
+        {
+          "t": 209,
+          "road": 56,
+          "sign": 39,
+          "drive": 0.825,
+          "path": 0.967
+        },
+        {
+          "t": 219,
+          "road": 56,
+          "sign": 42,
+          "drive": 0.826,
+          "path": 0.968
+        },
+        {
+          "t": 229,
+          "road": 58,
+          "sign": 45,
+          "drive": 0.832,
+          "path": 0.97
+        },
+        {
+          "t": 239,
+          "road": 64,
+          "sign": 49,
+          "drive": 0.827,
+          "path": 0.971
+        },
+        {
+          "t": 249,
+          "road": 63,
+          "sign": 51,
+          "drive": 0.82,
+          "path": 0.964
+        },
+        {
+          "t": 259,
+          "road": 59,
+          "sign": 49,
+          "drive": 0.823,
+          "path": 0.965
+        },
+        {
+          "t": 269,
+          "road": 57,
+          "sign": 47,
+          "drive": 0.824,
+          "path": 0.962
+        },
+        {
+          "t": 279,
+          "road": 57,
+          "sign": 41,
+          "drive": 0.82,
+          "path": 0.962
+        },
+        {
+          "t": 289,
+          "road": 57,
+          "sign": 39,
+          "drive": 0.826,
+          "path": 0.963
+        },
+        {
+          "t": 299,
+          "road": 61,
+          "sign": 41,
+          "drive": 0.827,
+          "path": 0.965
+        },
+        {
+          "t": 309,
+          "road": 67,
+          "sign": 43,
+          "drive": 0.826,
+          "path": 0.962
+        },
+        {
+          "t": 319,
+          "road": 71,
+          "sign": 46,
+          "drive": 0.828,
+          "path": 0.961
+        },
+        {
+          "t": 329,
+          "road": 72,
+          "sign": 44,
+          "drive": 0.823,
+          "path": 0.958
+        },
+        {
+          "t": 339,
+          "road": 70,
+          "sign": 40,
+          "drive": 0.821,
+          "path": 0.956
+        },
+        {
+          "t": 349,
+          "road": 66,
+          "sign": 38,
+          "drive": 0.817,
+          "path": 0.951
+        },
+        {
+          "t": 359,
+          "road": 62,
+          "sign": 40,
+          "drive": 0.813,
+          "path": 0.952
+        },
+        {
+          "t": 369,
+          "road": 58,
+          "sign": 42,
+          "drive": 0.814,
+          "path": 0.952
+        },
+        {
+          "t": 379,
+          "road": 54,
+          "sign": 47,
+          "drive": 0.814,
+          "path": 0.949
+        },
+        {
+          "t": 389,
+          "road": 52,
+          "sign": 45,
+          "drive": 0.815,
+          "path": 0.95
+        },
+        {
+          "t": 399,
+          "road": 53,
+          "sign": 43,
+          "drive": 0.814,
+          "path": 0.948
+        },
+        {
+          "t": 409,
+          "road": 55,
+          "sign": 41,
+          "drive": 0.818,
+          "path": 0.948
+        },
+        {
+          "t": 419,
+          "road": 57,
+          "sign": 39,
+          "drive": 0.819,
+          "path": 0.947
+        },
+        {
+          "t": 429,
+          "road": 63,
+          "sign": 42,
+          "drive": 0.818,
+          "path": 0.947
+        },
+        {
+          "t": 439,
+          "road": 65,
+          "sign": 44,
+          "drive": 0.817,
+          "path": 0.944
+        },
+        {
+          "t": 449,
+          "road": 63,
+          "sign": 46,
+          "drive": 0.818,
+          "path": 0.942
+        },
+        {
+          "t": 459,
+          "road": 63,
+          "sign": 44,
+          "drive": 0.819,
+          "path": 0.943
+        },
+        {
+          "t": 469,
+          "road": 65,
+          "sign": 42,
+          "drive": 0.819,
+          "path": 0.943
+        },
+        {
+          "t": 479,
+          "road": 67,
+          "sign": 38,
+          "drive": 0.818,
+          "path": 0.942
+        },
+        {
+          "t": 489,
+          "road": 67,
+          "sign": 40,
+          "drive": 0.816,
+          "path": 0.94
+        },
+        {
+          "t": 499,
+          "road": 63,
+          "sign": 42,
+          "drive": 0.815,
+          "path": 0.939
+        },
+        {
+          "t": 509,
+          "road": 59,
+          "sign": 44,
+          "drive": 0.815,
+          "path": 0.94
+        },
+        {
+          "t": 519,
+          "road": 57,
+          "sign": 42,
+          "drive": 0.813,
+          "path": 0.939
+        },
+        {
+          "t": 529,
+          "road": 53,
+          "sign": 40,
+          "drive": 0.814,
+          "path": 0.938
+        },
+        {
+          "t": 539,
+          "road": 51,
+          "sign": 38,
+          "drive": 0.815,
+          "path": 0.939
+        },
+        {
+          "t": 549,
+          "road": 55,
+          "sign": 39,
+          "drive": 0.817,
+          "path": 0.94
+        },
+        {
+          "t": 559,
+          "road": 61,
+          "sign": 44,
+          "drive": 0.817,
+          "path": 0.941
+        },
+        {
+          "t": 569,
+          "road": 65,
+          "sign": 45,
+          "drive": 0.816,
+          "path": 0.939
+        },
+        {
+          "t": 579,
+          "road": 65,
+          "sign": 47,
+          "drive": 0.815,
+          "path": 0.938
+        },
+        {
+          "t": 589,
+          "road": 61,
+          "sign": 45,
+          "drive": 0.816,
+          "path": 0.938
+        },
+        {
+          "t": 599,
+          "road": 61,
+          "sign": 43,
+          "drive": 0.818,
+          "path": 0.938
+        }
+      ]
+    }
+  ],
+  "pageErrors": []
+}

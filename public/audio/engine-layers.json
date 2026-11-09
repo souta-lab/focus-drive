@@ -1,0 +1,21 @@
+{
+  "layers": [
+    {
+      "file": "/audio/engine-1.wav",
+      "baseRpm": 1154
+    },
+    {
+      "file": "/audio/engine-2.wav",
+      "baseRpm": 1542
+    },
+    {
+      "file": "/audio/engine-3.wav",
+      "baseRpm": 3021
+    },
+    {
+      "file": "/audio/engine-4.wav",
+      "baseRpm": 5959
+    }
+  ],
+  "note": "Recorded engine loops; see CREDITS.md for attribution."
+}

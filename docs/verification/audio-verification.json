@@ -1,0 +1,392 @@
+{
+  "sampledAt": "2026-10-19T06:41:32.437Z",
+  "status": {
+    "state": "running",
+    "enabled": true,
+    "engineSamples": true,
+    "layers": 4,
+    "rates": [
+      {
+        "baseRpm": 1154,
+        "rate": 2.2,
+        "gain": 0
+      },
+      {
+        "baseRpm": 1542,
+        "rate": 2.2,
+        "gain": 0
+      },
+      {
+        "baseRpm": 3021,
+        "rate": 1.978,
+        "gain": 0.364
+      },
+      {
+        "baseRpm": 5959,
+        "rate": 1.003,
+        "gain": 0.33
+      }
+    ]
+  },
+  "spread": {
+    "rpmSeen": [
+      1728,
+      8200
+    ],
+    "maxPitchDisagreement": 656,
+    "gears": [
+      "4",
+      "5",
+      "3"
+    ]
+  },
+  "samples": [
+    {
+      "kmh": 131,
+      "gear": "4",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        3532,
+        3534
+      ],
+      "pitchAgreement": 2,
+      "gains": [
+        0,
+        0,
+        0.604,
+        0.181
+      ]
+    },
+    {
+      "kmh": 131,
+      "gear": "4",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        3532,
+        3534
+      ],
+      "pitchAgreement": 2,
+      "gains": [
+        0,
+        0,
+        0.604,
+        0.181
+      ]
+    },
+    {
+      "kmh": 162,
+      "gear": "5",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        1955,
+        1955
+      ],
+      "pitchAgreement": 0,
+      "gains": [
+        0,
+        0.548,
+        0.213,
+        0.099
+      ]
+    },
+    {
+      "kmh": 163,
+      "gear": "5",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        2134,
+        2133
+      ],
+      "pitchAgreement": 1,
+      "gains": [
+        0,
+        0.447,
+        0.418,
+        0
+      ]
+    },
+    {
+      "kmh": 145,
+      "gear": "4",
+      "audibleLayers": 1,
+      "impliedRpm": [
+        5858
+      ],
+      "pitchAgreement": 0,
+      "gains": [
+        0,
+        0,
+        0.019,
+        0.8
+      ]
+    },
+    {
+      "kmh": 121,
+      "gear": "4",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        2384,
+        1767
+      ],
+      "pitchAgreement": 617,
+      "gains": [
+        0,
+        0.038,
+        0.313,
+        0.448
+      ]
+    },
+    {
+      "kmh": 87,
+      "gear": "3",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        2619,
+        2620
+      ],
+      "pitchAgreement": 1,
+      "gains": [
+        0,
+        0.141,
+        0.53,
+        0
+      ]
+    },
+    {
+      "kmh": 87,
+      "gear": "3",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        2616,
+        2617
+      ],
+      "pitchAgreement": 1,
+      "gains": [
+        0,
+        0.143,
+        0.528,
+        0
+      ]
+    },
+    {
+      "kmh": 160,
+      "gear": "4",
+      "audibleLayers": 1,
+      "impliedRpm": [
+        8200
+      ],
+      "pitchAgreement": 0,
+      "gains": [
+        0,
+        0.007,
+        0.034,
+        0.798
+      ]
+    },
+    {
+      "kmh": 167,
+      "gear": "5",
+      "audibleLayers": 1,
+      "impliedRpm": [
+        2912
+      ],
+      "pitchAgreement": 0,
+      "gains": [
+        0,
+        0.049,
+        0.828,
+        0
+      ]
+    },
+    {
+      "kmh": 150,
+      "gear": "4",
+      "audibleLayers": 1,
+      "impliedRpm": [
+        6758
+      ],
+      "pitchAgreement": 0,
+      "gains": [
+        0.001,
+        0.009,
+        0.008,
+        0.817
+      ]
+    },
+    {
+      "kmh": 149,
+      "gear": "4",
+      "audibleLayers": 1,
+      "impliedRpm": [
+        6537
+      ],
+      "pitchAgreement": 0,
+      "gains": [
+        0,
+        0,
+        0,
+        0.828
+      ]
+    },
+    {
+      "kmh": 97,
+      "gear": "3",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        4493,
+        4495
+      ],
+      "pitchAgreement": 2,
+      "gains": [
+        0.008,
+        0.018,
+        0.17,
+        0.52
+      ]
+    },
+    {
+      "kmh": 91,
+      "gear": "3",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        3447,
+        3444
+      ],
+      "pitchAgreement": 3,
+      "gains": [
+        0,
+        0,
+        0.58,
+        0.101
+      ]
+    },
+    {
+      "kmh": 91,
+      "gear": "3",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        3444,
+        3444
+      ],
+      "pitchAgreement": 0,
+      "gains": [
+        0,
+        0,
+        0.551,
+        0.132
+      ]
+    },
+    {
+      "kmh": 161,
+      "gear": "5",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        2384,
+        1728
+      ],
+      "pitchAgreement": 656,
+      "gains": [
+        0,
+        0.001,
+        0.06,
+        0.776
+      ]
+    },
+    {
+      "kmh": 172,
+      "gear": "5",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        3689,
+        3689
+      ],
+      "pitchAgreement": 0,
+      "gains": [
+        0,
+        0,
+        0.627,
+        0.26
+      ]
+    },
+    {
+      "kmh": 153,
+      "gear": "4",
+      "audibleLayers": 1,
+      "impliedRpm": [
+        7336
+      ],
+      "pitchAgreement": 0,
+      "gains": [
+        0.001,
+        0.007,
+        0.004,
+        0.83
+      ]
+    },
+    {
+      "kmh": 152,
+      "gear": "4",
+      "audibleLayers": 1,
+      "impliedRpm": [
+        7222
+      ],
+      "pitchAgreement": 0,
+      "gains": [
+        0,
+        0,
+        0,
+        0.838
+      ]
+    },
+    {
+      "kmh": 94,
+      "gear": "3",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        3906,
+        3903
+      ],
+      "pitchAgreement": 3,
+      "gains": [
+        0,
+        0,
+        0.415,
+        0.275
+      ]
+    },
+    {
+      "kmh": 94,
+      "gear": "3",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        3858,
+        3861
+      ],
+      "pitchAgreement": 3,
+      "gains": [
+        0,
+        0,
+        0.441,
+        0.248
+      ]
+    },
+    {
+      "kmh": 106,
+      "gear": "3",
+      "audibleLayers": 2,
+      "impliedRpm": [
+        5976,
+        5977
+      ],
+      "pitchAgreement": 1,
+      "gains": [
+        0,
+        0,
+        0.364,
+        0.33
+      ]
+    }
+  ],
+  "pagesErrors": [],
+  "failedRequests": []
+}

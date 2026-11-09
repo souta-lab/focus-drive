@@ -1,0 +1,38 @@
+{
+  "sampledAt": "2026-10-18T15:25:29.118Z",
+  "quickDualVisible": true,
+  "audioAfterGesture": {
+    "state": "running",
+    "enabled": true
+  },
+  "audioAtEnd": {
+    "state": "running",
+    "enabled": true
+  },
+  "power": {
+    "elapsed": 3633.3,
+    "pace": 1.1045997037037039,
+    "fx": "fx-power fx-surge",
+    "feedback": {
+      "tMs": 3549.99999999999,
+      "kind": "POWER",
+      "text": "POWER ZONE · SURGE"
+    }
+  },
+  "guide": {
+    "elapsed": 12032.900000000001,
+    "phase": "APPROACH",
+    "progress": 0
+  },
+  "wall": {
+    "lateral": 3.4000000000000004,
+    "feedback": {
+      "tMs": 13066.66666666655,
+      "kind": "WALL",
+      "text": "GUARDRAIL"
+    },
+    "fx": "fx-surge fx-wall"
+  },
+  "maxLateral": 3.4000000000000004,
+  "pageErrors": []
+}

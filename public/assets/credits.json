@@ -1,0 +1,122 @@
+{
+  "generatedFrom": "asset-manifest.json",
+  "verifiedAt": "2026-10-19",
+  "assets": [
+    {
+      "id": "car-concept",
+      "name": "Car Concept",
+      "author": "Eric Chadwick / Darmstadt Graphics Group GmbH",
+      "copyright": "© 2024 Darmstadt Graphics Group GmbH",
+      "sourceUrl": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CarConcept",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Original GLB preserved byte-for-byte. Runtime changes: scale to 95%, rotate 180° to the shared vehicle heading, animate existing wheel pivots, tint car-paint/rim/interior materials, optional contrasting secondary panels. No branded S2000 model is represented or claimed.",
+      "notices": [
+        "Contains Khronos and 3D Commerce marks. © 2015 and © 2017 Khronos Group. Original logo notice is preserved in public/assets/cars/concept/KHRONOS-LOGO-LICENSE.txt; no endorsement is implied.",
+        "Upstream model began with a CC0 concept model by Unity Fan; the optimized model and textures distributed here are credited to Eric Chadwick / Darmstadt Graphics Group under CC BY 4.0."
+      ]
+    },
+    {
+      "id": "focus-r01-procedural",
+      "name": "FOCUS R01 procedural roadster, scenery and surface textures",
+      "author": "FOCUS DRIVE project contributors",
+      "sourceUrl": null,
+      "license": "Project-original; no third-party model license asserted",
+      "licenseUrl": null,
+      "changes": "Original continuously lofted body with wheel arches, open cockpit, windscreen, bucket seats, rollover hoops, five-spoke rotating wheels, LED lighting, mirrors and diffuser. Generated at runtime; used when GLB is unavailable and as a selectable cosmetic. Road, sea, trees, mountains, bridge, city and textures are also generated locally."
+    },
+    {
+      "id": "engine-1",
+      "name": "Engine loop · idle/low",
+      "author": "Provo rossi",
+      "copyright": "© Provo rossi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Extracted a ~1.1s steady window measured at roughly 1154 rpm, highpassed at 55Hz, compressed, loudness-normalised, then looped over whole firing periods with a period-aligned crossfade. The runtime crossfades these layers and pitch-shifts them by engine speed. The source recording is not redistributed.",
+      "notices": [
+        "CC BY 4.0 requires attribution. Recorded from a Ferrari 250 GTO at a public event; Ferrari and the vehicle owner do not endorse this project."
+      ]
+    },
+    {
+      "id": "engine-2",
+      "name": "Engine loop · low-mid",
+      "author": "Provo rossi",
+      "copyright": "© Provo rossi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Extracted a ~1.1s steady window measured at roughly 1542 rpm, highpassed at 55Hz, compressed, loudness-normalised, then looped over whole firing periods with a period-aligned crossfade. The runtime crossfades these layers and pitch-shifts them by engine speed. The source recording is not redistributed.",
+      "notices": [
+        "CC BY 4.0 requires attribution. Recorded from a Ferrari 250 GTO at a public event; Ferrari and the vehicle owner do not endorse this project."
+      ]
+    },
+    {
+      "id": "engine-3",
+      "name": "Engine loop · mid-high",
+      "author": "Provo rossi",
+      "copyright": "© Provo rossi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Extracted a ~1.1s steady window measured at roughly 3021 rpm, highpassed at 55Hz, compressed, loudness-normalised, then looped over whole firing periods with a period-aligned crossfade. The runtime crossfades these layers and pitch-shifts them by engine speed. The source recording is not redistributed.",
+      "notices": [
+        "CC BY 4.0 requires attribution. Recorded from a Ferrari 250 GTO at a public event; Ferrari and the vehicle owner do not endorse this project."
+      ]
+    },
+    {
+      "id": "engine-4",
+      "name": "Engine loop · high",
+      "author": "Provo rossi",
+      "copyright": "© Provo rossi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferrari_250_GTO,_Engine_Sound.ogg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Extracted a ~1.1s steady window measured at roughly 5959 rpm, highpassed at 55Hz, compressed, loudness-normalised, then looped over whole firing periods with a period-aligned crossfade. The runtime crossfades these layers and pitch-shifts them by engine speed. The source recording is not redistributed.",
+      "notices": [
+        "CC BY 4.0 requires attribution. Recorded from a Ferrari 250 GTO at a public event; Ferrari and the vehicle owner do not endorse this project."
+      ]
+    }
+  ],
+  "downloadAttempts": [
+    {
+      "name": "[FREE] Honda S2000 - S2K",
+      "author": "WastingMyCars / zxargon",
+      "sourceUrl": "https://sketchfab.com/3d-models/free-honda-s2000-s2k-bbcc1cbb7f774b8ab9e94639a058e188",
+      "pageLicenseVerified": "CC BY 4.0",
+      "pageLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "downloadAttemptUrl": "https://api.sketchfab.com/v3/models/bbcc1cbb7f774b8ab9e94639a058e188/download",
+      "outcome": "HTTP 401: Authentication credentials were not provided. No login or credentials requested; no geometry copied from viewer endpoints.",
+      "adopted": false,
+      "substitute": "car-concept"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "DM Sans",
+      "author": "The DM Sans Project Authors",
+      "copyright": "Copyright 2014 The DM Sans Project Authors",
+      "sourceUrl": "https://github.com/googlefonts/dm-fonts",
+      "license": "SIL Open Font License 1.1",
+      "licenseUrl": "https://openfontlicense.org/",
+      "localLicense": "public/fonts/dm-sans-OFL.txt",
+      "publicLicense": "/fonts/dm-sans-OFL.txt"
+    },
+    {
+      "name": "Instrument Serif",
+      "author": "The Instrument Serif Project Authors",
+      "copyright": "Copyright 2022 The Instrument Serif Project Authors",
+      "sourceUrl": "https://github.com/Instrument/instrument-serif",
+      "license": "SIL Open Font License 1.1",
+      "licenseUrl": "https://openfontlicense.org/",
+      "localLicense": "public/fonts/instrument-serif-OFL.txt",
+      "publicLicense": "/fonts/instrument-serif-OFL.txt"
+    }
+  ],
+  "engine": {
+    "name": "PlayCanvas Engine",
+    "license": "MIT",
+    "sourceUrl": "https://github.com/playcanvas/engine",
+    "licenseUrl": "https://github.com/playcanvas/engine/blob/main/LICENSE"
+  }
+}

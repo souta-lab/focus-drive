@@ -1,0 +1,179 @@
+{
+  "version": "focus-drive-reconstruction-1.0",
+  "provenance": "Implementation from supplied design v2; original commercial tables are not available",
+  "classic": {
+    "durationMs": 180000,
+    "displayMs": 400,
+    "intervalsMs": [
+      2000,
+      2500,
+      3000
+    ],
+    "trials": 72,
+    "targetCounts": [
+      24,
+      36
+    ],
+    "roadLevels": 200,
+    "signLevels": 54,
+    "initialRoadLevel": 20,
+    "initialSignLevel": 29,
+    "deadband": [
+      0.775,
+      0.825
+    ],
+    "signPercentPerLevel": 1.75,
+    "roadPercentPerLevel": 0.58,
+    "signStepCap": 10,
+    "roadStepCap": 20
+  },
+  "responseWindow": {
+    "source": "inferred endpoint-preserving lookup",
+    "level1Ms": 1000,
+    "level19Ms": 600,
+    "level54Ms": 250,
+    "rounding": "explicit integer table; intermediate 1..19 spacing inferred"
+  },
+  "road": {
+    "source": "game substitution/inferred",
+    "minimumSpeedMps": 22,
+    "incrementMps": 0.33,
+    "evaluationHalfWidthM": 3.2,
+    "challengeMinHalfWidthM": 1.75,
+    "visualHalfWidthM": 4.2,
+    "carHalfWidthM": 0.8,
+    "fixedStepHz": 60,
+    "lateralAcceleration": 18,
+    "challengeHighSpeedLateralGain": 0.25,
+    "lateralDamping": 4,
+    "railLimitM": 3.4
+  },
+  "challenge": {
+    "source": "game-only opt-in, NOT research protocol",
+    "defaultInSettings": true,
+    "optOutAvailable": true,
+    "roadStepCaps": [
+      1,
+      3,
+      6
+    ],
+    "signStepCaps": [
+      1,
+      2,
+      3
+    ],
+    "roadCooldownMs": 5000,
+    "signCooldownMs": 7500,
+    "eventSpacingM": [
+      62,
+      90
+    ],
+    "standardEventSpacingM": [
+      100,
+      130
+    ],
+    "classicAffected": false
+  },
+  "eventMechanics": {
+    "source": "game-only consequences",
+    "driveScoreWeights": {
+      "path": 0.55,
+      "event": 0.45
+    },
+    "powerZone": {
+      "paceTarget": 1.24,
+      "ms": 2800
+    },
+    "gate": {
+      "paceTarget": 1.1,
+      "ms": 1500
+    },
+    "obstacleAvoided": {
+      "paceTarget": 1.08,
+      "ms": 1200
+    },
+    "obstacleHit": {
+      "paceTarget": 0.66,
+      "ms": 2400,
+      "lateralImpulseMps": 2.6
+    },
+    "researchMetricUnchanged": true
+  },
+  "otc": {
+    "source": "inferred controller, NOT SSME",
+    "durationMs": 180000,
+    "baselineSegments": [
+      {
+        "mode": "DRIVE_ONLY",
+        "durationMs": 60000
+      },
+      {
+        "mode": "SIGN_ONLY",
+        "durationMs": 60000
+      },
+      {
+        "mode": "DUAL",
+        "durationMs": 60000
+      }
+    ],
+    "samplingPeriodMs": 1000,
+    "navWindowMs": 20000,
+    "targetWindowMs": 30000,
+    "targetMinTrials": 8,
+    "minimumEachClass": 2,
+    "sameAxisCooldownMs": 10000,
+    "stepCap": 1,
+    "betaPrior": [
+      4,
+      1
+    ]
+  },
+  "guide": {
+    "source": "inferred timing/eligibility, published approach-lock-capture structure",
+    "firstApproachMs": 12000,
+    "approachMs": 2000,
+    "baseLockMs": 3500,
+    "addedLockMsPerGuide": 180,
+    "cooldownMs": 6000,
+    "minimumRecentTargetTrials": 8,
+    "minimumTargets": 3,
+    "minimumNonTargets": 3,
+    "minimumRecentNavMs": 8000,
+    "recentWindowMs": 30000,
+    "minimumBothAccuracy": 0.8,
+    "maximumFalseAlarmRate": 0.2,
+    "minimumNavEventSuccessRate": 0.5,
+    "guidesPerWorld": 15
+  },
+  "quality": {
+    "maxPresentationDelayMs": 100,
+    "maxInvalidTrialFraction": 0.1,
+    "longFrameMs": 1000,
+    "frameDropFlagMs": 50,
+    "presentationAckRequired": true
+  },
+  "progression": {
+    "minimumTrainingBeforeChallenge": 5,
+    "missionsPerIndex": 15,
+    "dailyMissionMinuteGoal": 10,
+    "incompleteAndPracticeAdvance": false
+  },
+  "onboarding": {
+    "productionFirstMission": "BASELINE_DUAL_180S",
+    "segmentedBaselineAvailable": true,
+    "quickDualPractice": {
+      "missionType": "TRAINING",
+      "taskMode": "DUAL",
+      "testHarness": true,
+      "minimumRoadLevel": 45,
+      "minimumSignLevel": 35,
+      "rewards": false
+    }
+  },
+  "presentation": {
+    "audio": "PROCEDURAL_WEBAUDIO_DEFAULT_ON",
+    "screenEffects": "DOM_FLASH_SPEEDLINES_SHAKE_REDUCED_MOTION_AWARE",
+    "guardrailFeedback": "WALL_900MS_COOLDOWN",
+    "guideVisual": "ROAD_RING_PLUS_THIN_COLUMN"
+  }
+}

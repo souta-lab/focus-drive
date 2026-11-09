@@ -1,0 +1,41 @@
+{
+  "name": "focus-drive",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-config.mjs && node scripts/generate-credits.mjs && vite --host 0.0.0.0 --port 4173",
+    "build": "tsc --noEmit && node scripts/build-config.mjs && node scripts/generate-credits.mjs && vite build && node scripts/build-sw.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "bench": "node scripts/browser-benchmark.mjs",
+    "verify:production": "node scripts/verify-production.mjs",
+    "verify:offline": "node scripts/verify-offline.mjs",
+    "verify:events": "node scripts/verify-events-live.mjs",
+    "verify:difficulty": "node scripts/play-difficulty.mjs",
+    "verify:feedback": "node scripts/verify-feedback.mjs",
+    "deploy:workers": "pnpm build && node scripts/build-workers-output.mjs && cf deploy --prebuilt",
+    "build:workers-output": "node scripts/build-workers-output.mjs",
+    "verify:deployed": "node scripts/verify-deployed.mjs",
+    "verify:convergence": "node scripts/measure-convergence.mjs",
+    "verify:frame-cost": "node scripts/measure-frame-cost.mjs",
+    "verify:audio": "node scripts/verify-audio.mjs",
+    "build:engine-audio": "python3 scripts/build-engine-audio.py",
+    "verify:account": "node scripts/verify-account-ui.mjs",
+    "build:engine-layers": "python3 scripts/build-engine-audio.py",
+    "verify:night": "node scripts/measure-night.mjs"
+  },
+  "dependencies": {
+    "playcanvas": "^2.18.0"
+  },
+  "devDependencies": {
+    "@cloudflare/build-output-utils": "0.9.0",
+    "@playwright/test": "^1.56.0",
+    "cf": "1.0.0-beta.18",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.0"
+  }
+}

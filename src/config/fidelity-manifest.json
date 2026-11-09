@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "product": "FOCUS DRIVE, independent non-clinical reconstruction",
+  "design": "focus_drive_design_spec_v2.md (2026-10-18)",
+  "originalSources": {
+    "P": {
+      "title": "EndeavorOTC Instructions for Use (2025), public product behaviour",
+      "url": "https://www.endeavorotc.com/wp-content/uploads/2025/04/EndeavorOTC-IFU-5015-3.0.0.pdf"
+    },
+    "N": {
+      "title": "Anguera et al., NeuroRacer (2013), research not commercial SSME",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3983066/"
+    },
+    "S": {
+      "title": "Stamatis et al. (2024), research metric pipeline",
+      "url": "https://doi.org/10.1038/s41398-024-03045-0"
+    }
+  },
+  "publishedValuesImplemented": [
+    {
+      "feature": "Classic 180s, 400ms display; 2/2.5/3s intervals; 24/48 or36/36 targets; 54 Sign and200 Road levels; initial29/20",
+      "source": "N",
+      "status": "regression-tested implementation of values in supplied design"
+    },
+    {
+      "feature": "Independent Classic end-of-run staircase around80%, deadband77.5–82.5",
+      "source": "N",
+      "status": "reconstructed rounding/lookup, not exact original code"
+    },
+    {
+      "feature": "Navigate/Target/Multitask; Power Zone/Gate/Obstacle; automatic Guide approach-lock-capture;15 Guides perWorld; Expert on allWorld unlock;15-mission index; mission-only daily minutes",
+      "source": "P",
+      "status": "implemented game loop; inferred timing and reward amounts"
+    },
+    {
+      "feature": "Baseline then at least5Training thenChallenge;W1 three colours;W2 six same-colour shapes",
+      "source": "S",
+      "status": "implemented public structural descriptions, concrete tokens chosen locally"
+    },
+    {
+      "feature": "Navigation80 threshold, hit RT, d-prime; World×Mission adjustment; robust normalization and target vector norm",
+      "source": "S",
+      "status": "estimated local analysis pipeline, commercial normalization and Focus Score not reproduced"
+    }
+  ],
+  "inferredImplementation": [
+    {
+      "feature": "OTC180s and60/60/60 baseline segments",
+      "reason": "OTC exact mission length and segment length unconfirmed;180s default chosen by project requirement; shorter durations restricted to explicit testHarness"
+    },
+    {
+      "feature": "Road speed16..45.85m/s, width, steering dynamics, event spacing and coin amounts",
+      "reason": "car-game substitution; no recovered200-level commercial speed table"
+    },
+    {
+      "feature": "Sign lookup1000ms at1,600ms at19,250ms at54",
+      "reason": "published piecewise descriptions have endpoint inconsistency; explicit table reproduces29→33=-40ms and29→19=+100ms examples"
+    },
+    {
+      "feature": "Continuous independent beta-evidence controller,20s nav,30s target,8minimum trials,10s cooldown,+/-1 cap",
+      "reason": "estimated controller inspired by public continuous-adaptation behaviour, not reverse-engineered SSME"
+    },
+    {
+      "feature": "Guide timing and both-task eligibility",
+      "reason": "inferred table;3 target+3 non-target minimum,8total,80% hit/overall/nav,<=20%FA and>=50% recent navigation-event success"
+    },
+    {
+      "feature": "W3 colour-shape conjunction;W4 alternating30s rule",
+      "reason": "original World3/4 rules unconfirmed; explicitly provisional"
+    },
+    {
+      "feature": "Navigation weighted decreasing isotonic fit and Wilson bounds",
+      "reason": "local estimator; effective samples are valid seconds. Out-of-range/single-level estimates are censored to observed boundary with LOW confidence and broad bounds, not established ability thresholds"
+    },
+    {
+      "feature": "Composite local ridge regression on log(order)+World×Mission,1.5IQR winsorization,median/IQR scaling,logistic bounded mapping,Euclidean targeting norm and equal nav weight",
+      "reason": "estimated coefficients/local reference distribution; not clinical or manufacturer-equivalent. At least3 validDual missions required"
+    },
+    {
+      "feature": "Presentation acknowledgements and100ms tolerance",
+      "reason": "host rAF renderer acknowledgement, not actual photon time; no photodiode calibration"
+    },
+    {
+      "feature": "High Challenge opt-in (denser events, narrower tolerance, faster adaptation)",
+      "reason": "game-only difficulty mode; not a public NeuroRacer/OTC protocol. Classic 180s rules are unchanged and never enter this mode"
+    },
+    {
+      "feature": "Power Zone surge, Gate bonus, Obstacle slowdown/impulse and Drive Score blend",
+      "reason": "game-only event consequences and a 55/45 path+event display score. Research path accuracy, Classic staircase and OTC evidence stay measured from path holding alone and remain separately stored"
+    },
+    {
+      "feature": "Dual-task-first onboarding; production Baseline is a 180s DUAL run",
+      "reason": "game-flow decision (requested by playtest feedback). Segmented 60/60/60 Baseline remains available as an explicit research engine configuration; multitask cost requires separate single-task calibration"
+    },
+    {
+      "feature": "Hard guardrail boundary at 3.4m lateral offset in every mode",
+      "reason": "game boundary for OTC/Arcade to stop off-road driving. Classic preserves the prior research-compatible unlimited lateral movement; evaluation band stays 1.75-3.2m and all path/event metrics are unchanged"
+    },
+    {
+      "feature": "Synthesized engine/wind/tyre audio and short cue tones; screen flash, speed lines and shake",
+      "reason": "procedural WebAudio and DOM effects; no external audio. Reduced-motion and sound-off settings supported"
+    },
+    {
+      "feature": "Distance boards, track banners, checkered bands, gantries, wind turbines, road sectors and curbs",
+      "reason": "scenery only. Road centre function, scoring width, event distances and stimuli are unchanged"
+    }
+  ],
+  "notImplementedOrNotValidated": [
+    "Exact private SSME equations and manufacturer Focus Score/norms",
+    "Original gameplay-observation calibration for W3/W4, Guide timing, speed table or rewards",
+    "Full nine120s Target and twelve60s Navigation research-calibration protocol UI",
+    "Bayesian hierarchical population model or clinical efficacy validation",
+    "Physical display-latency validation and device-specific photodiode calibration"
+  ],
+  "rawData": "Full stimuli, input transitions, fixed-step navigation, navigation events, adaptations, quality flags and Guide captures are retained in MissionRecord. Missing onset acknowledgements never become CR/MISS or valid denominators. Tabs/GPU/long frames flag invalid measurement."
+}

@@ -1,0 +1,522 @@
+{
+  "sampledAt": "2026-10-19T05:28:53.671Z",
+  "durationMs": 180000,
+  "challengeMode": true,
+  "mode": "OTC_HIGH_FIDELITY",
+  "runs": [
+    {
+      "profile": "strong",
+      "skill": {
+        "focus": 0.95,
+        "reactionMs": 250,
+        "jitterMs": 40
+      },
+      "quality": "GOOD",
+      "botLineup": {
+        "seenEvents": 118,
+        "focusedEvents": 113
+      },
+      "finalLevels": {
+        "road": 121,
+        "sign": 53
+      },
+      "totalChanges": 52,
+      "changesInLast60s": 16,
+      "last60s": {
+        "observedAccuracyMean": 0.903654319198377,
+        "observedAccuracyStd": 0.006244874794751905,
+        "roadLevelStd": 9.340532937448243,
+        "roadRange": [
+          95,
+          121
+        ],
+        "samples": 30
+      },
+      "measured": {
+        "path": 0.9237037037037426,
+        "event": 0.8461538461538461,
+        "drive": 0.8888062678062892,
+        "target": 0.8611111111111112,
+        "levelChangesBeforeLast60s": 23
+      },
+      "trajectory": [
+        {
+          "t": 0,
+          "road": 20,
+          "sign": 29,
+          "drive": null,
+          "path": null
+        },
+        {
+          "t": 9,
+          "road": 21,
+          "sign": 29,
+          "drive": 0.914,
+          "path": 0.844
+        },
+        {
+          "t": 19,
+          "road": 27,
+          "sign": 31,
+          "drive": 0.959,
+          "path": 0.926
+        },
+        {
+          "t": 29,
+          "road": 36,
+          "sign": 34,
+          "drive": 0.936,
+          "path": 0.952
+        },
+        {
+          "t": 39,
+          "road": 48,
+          "sign": 37,
+          "drive": 0.954,
+          "path": 0.964
+        },
+        {
+          "t": 49,
+          "road": 57,
+          "sign": 43,
+          "drive": 0.964,
+          "path": 0.971
+        },
+        {
+          "t": 59,
+          "road": 63,
+          "sign": 46,
+          "drive": 0.94,
+          "path": 0.949
+        },
+        {
+          "t": 69,
+          "road": 69,
+          "sign": 49,
+          "drive": 0.932,
+          "path": 0.949
+        },
+        {
+          "t": 79,
+          "road": 75,
+          "sign": 52,
+          "drive": 0.93,
+          "path": 0.932
+        },
+        {
+          "t": 89,
+          "road": 81,
+          "sign": 52,
+          "drive": 0.931,
+          "path": 0.926
+        },
+        {
+          "t": 99,
+          "road": 87,
+          "sign": 50,
+          "drive": 0.919,
+          "path": 0.929
+        },
+        {
+          "t": 109,
+          "road": 93,
+          "sign": 47,
+          "drive": 0.908,
+          "path": 0.929
+        },
+        {
+          "t": 119,
+          "road": 95,
+          "sign": 45,
+          "drive": 0.91,
+          "path": 0.92
+        },
+        {
+          "t": 129,
+          "road": 96,
+          "sign": 50,
+          "drive": 0.902,
+          "path": 0.919
+        },
+        {
+          "t": 139,
+          "road": 102,
+          "sign": 53,
+          "drive": 0.904,
+          "path": 0.924
+        },
+        {
+          "t": 149,
+          "road": 108,
+          "sign": 54,
+          "drive": 0.911,
+          "path": 0.929
+        },
+        {
+          "t": 159,
+          "road": 114,
+          "sign": 54,
+          "drive": 0.907,
+          "path": 0.931
+        },
+        {
+          "t": 169,
+          "road": 120,
+          "sign": 52,
+          "drive": 0.896,
+          "path": 0.925
+        },
+        {
+          "t": 179,
+          "road": 121,
+          "sign": 53,
+          "drive": 0.889,
+          "path": 0.923
+        }
+      ]
+    },
+    {
+      "profile": "mid",
+      "skill": {
+        "focus": 0.8,
+        "reactionMs": 320,
+        "jitterMs": 65
+      },
+      "quality": "GOOD",
+      "botLineup": {
+        "seenEvents": 113,
+        "focusedEvents": 93
+      },
+      "finalLevels": {
+        "road": 124,
+        "sign": 40
+      },
+      "totalChanges": 53,
+      "changesInLast60s": 19,
+      "last60s": {
+        "observedAccuracyMean": 0.8955922437365785,
+        "observedAccuracyStd": 0.003370702629043735,
+        "roadLevelStd": 9.555917305814003,
+        "roadRange": [
+          92,
+          124
+        ],
+        "samples": 30
+      },
+      "measured": {
+        "path": 0.9464814814815087,
+        "event": 0.8303571428571429,
+        "drive": 0.8942255291005441,
+        "target": 0.8611111111111112,
+        "levelChangesBeforeLast60s": 23
+      },
+      "trajectory": [
+        {
+          "t": 0,
+          "road": 20,
+          "sign": 29,
+          "drive": null,
+          "path": null
+        },
+        {
+          "t": 9,
+          "road": 23,
+          "sign": 29,
+          "drive": 0.944,
+          "path": 0.898
+        },
+        {
+          "t": 19,
+          "road": 29,
+          "sign": 29,
+          "drive": 0.973,
+          "path": 0.952
+        },
+        {
+          "t": 29,
+          "road": 38,
+          "sign": 32,
+          "drive": 0.923,
+          "path": 0.935
+        },
+        {
+          "t": 39,
+          "road": 44,
+          "sign": 35,
+          "drive": 0.93,
+          "path": 0.92
+        },
+        {
+          "t": 49,
+          "road": 50,
+          "sign": 38,
+          "drive": 0.901,
+          "path": 0.936
+        },
+        {
+          "t": 59,
+          "road": 56,
+          "sign": 41,
+          "drive": 0.896,
+          "path": 0.937
+        },
+        {
+          "t": 69,
+          "road": 62,
+          "sign": 45,
+          "drive": 0.914,
+          "path": 0.946
+        },
+        {
+          "t": 79,
+          "road": 68,
+          "sign": 45,
+          "drive": 0.901,
+          "path": 0.953
+        },
+        {
+          "t": 89,
+          "road": 74,
+          "sign": 43,
+          "drive": 0.914,
+          "path": 0.958
+        },
+        {
+          "t": 99,
+          "road": 80,
+          "sign": 39,
+          "drive": 0.904,
+          "path": 0.941
+        },
+        {
+          "t": 109,
+          "road": 86,
+          "sign": 39,
+          "drive": 0.906,
+          "path": 0.946
+        },
+        {
+          "t": 119,
+          "road": 92,
+          "sign": 39,
+          "drive": 0.904,
+          "path": 0.943
+        },
+        {
+          "t": 129,
+          "road": 98,
+          "sign": 42,
+          "drive": 0.893,
+          "path": 0.946
+        },
+        {
+          "t": 139,
+          "road": 104,
+          "sign": 45,
+          "drive": 0.898,
+          "path": 0.94
+        },
+        {
+          "t": 149,
+          "road": 108,
+          "sign": 48,
+          "drive": 0.896,
+          "path": 0.944
+        },
+        {
+          "t": 159,
+          "road": 114,
+          "sign": 46,
+          "drive": 0.894,
+          "path": 0.947
+        },
+        {
+          "t": 169,
+          "road": 120,
+          "sign": 42,
+          "drive": 0.893,
+          "path": 0.95
+        },
+        {
+          "t": 179,
+          "road": 124,
+          "sign": 40,
+          "drive": 0.893,
+          "path": 0.946
+        }
+      ]
+    },
+    {
+      "profile": "weak",
+      "skill": {
+        "focus": 0.6,
+        "reactionMs": 400,
+        "jitterMs": 90
+      },
+      "quality": "LIMITED",
+      "botLineup": {
+        "seenEvents": 94,
+        "focusedEvents": 61
+      },
+      "finalLevels": {
+        "road": 87,
+        "sign": 37
+      },
+      "totalChanges": 50,
+      "changesInLast60s": 16,
+      "last60s": {
+        "observedAccuracyMean": 0.8710009580978999,
+        "observedAccuracyStd": 0.0027355907035419933,
+        "roadLevelStd": 6.441186916158301,
+        "roadRange": [
+          67,
+          87
+        ],
+        "samples": 30
+      },
+      "measured": {
+        "path": 0.9557407407407632,
+        "event": 0.7526881720430108,
+        "drive": 0.8643670848267746,
+        "target": 0.8055555555555556,
+        "levelChangesBeforeLast60s": 21
+      },
+      "trajectory": [
+        {
+          "t": 0,
+          "road": 20,
+          "sign": 29,
+          "drive": null,
+          "path": null
+        },
+        {
+          "t": 9,
+          "road": 23,
+          "sign": 29,
+          "drive": 1,
+          "path": 1
+        },
+        {
+          "t": 19,
+          "road": 29,
+          "sign": 31,
+          "drive": 0.807,
+          "path": 1
+        },
+        {
+          "t": 29,
+          "road": 33,
+          "sign": 33,
+          "drive": 0.836,
+          "path": 1
+        },
+        {
+          "t": 39,
+          "road": 33,
+          "sign": 37,
+          "drive": 0.85,
+          "path": 1
+        },
+        {
+          "t": 49,
+          "road": 34,
+          "sign": 39,
+          "drive": 0.858,
+          "path": 0.987
+        },
+        {
+          "t": 59,
+          "road": 36,
+          "sign": 37,
+          "drive": 0.844,
+          "path": 0.979
+        },
+        {
+          "t": 69,
+          "road": 38,
+          "sign": 35,
+          "drive": 0.866,
+          "path": 0.982
+        },
+        {
+          "t": 79,
+          "road": 44,
+          "sign": 32,
+          "drive": 0.849,
+          "path": 0.974
+        },
+        {
+          "t": 89,
+          "road": 48,
+          "sign": 29,
+          "drive": 0.869,
+          "path": 0.971
+        },
+        {
+          "t": 99,
+          "road": 52,
+          "sign": 29,
+          "drive": 0.876,
+          "path": 0.974
+        },
+        {
+          "t": 109,
+          "road": 58,
+          "sign": 31,
+          "drive": 0.879,
+          "path": 0.976
+        },
+        {
+          "t": 119,
+          "road": 64,
+          "sign": 34,
+          "drive": 0.876,
+          "path": 0.978
+        },
+        {
+          "t": 129,
+          "road": 70,
+          "sign": 37,
+          "drive": 0.87,
+          "path": 0.974
+        },
+        {
+          "t": 139,
+          "road": 74,
+          "sign": 39,
+          "drive": 0.872,
+          "path": 0.976
+        },
+        {
+          "t": 149,
+          "road": 76,
+          "sign": 40,
+          "drive": 0.87,
+          "path": 0.977
+        },
+        {
+          "t": 159,
+          "road": 82,
+          "sign": 41,
+          "drive": 0.876,
+          "path": 0.979
+        },
+        {
+          "t": 169,
+          "road": 86,
+          "sign": 39,
+          "drive": 0.873,
+          "path": 0.969
+        },
+        {
+          "t": 179,
+          "road": 87,
+          "sign": 37,
+          "drive": 0.864,
+          "path": 0.955
+        }
+      ]
+    }
+  ],
+  "pageErrors": []
+}

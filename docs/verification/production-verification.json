@@ -1,0 +1,30 @@
+{
+  "sampledAt": "2026-10-18T15:38:23.803Z",
+  "url": "http://127.0.0.1:4174",
+  "productionDiagnosticsAbsent": true,
+  "serviceWorkerControlled": true,
+  "cache": {
+    "name": "focus-drive-5433dcf4adff",
+    "files": [
+      "/",
+      "/assets/cars/concept/CarConcept.glb",
+      "/assets/cars/concept/KHRONOS-LOGO-LICENSE.txt",
+      "/assets/cars/concept/SOURCE-LICENSE.md",
+      "/assets/credits.json",
+      "/assets/index-BBeh8m-7.js",
+      "/assets/index-DgYOjtXM.css",
+      "/assets/index-yZaM5y98.js",
+      "/assets/preload-helper-BXl3LOEh.js",
+      "/fidelity-manifest.json",
+      "/fonts/dm-sans-OFL.txt",
+      "/fonts/dm-sans-variable.ttf",
+      "/fonts/instrument-serif-OFL.txt",
+      "/fonts/instrument-serif-italic.ttf",
+      "/icon.svg",
+      "/manifest.webmanifest",
+      "/reconstruction-profile.json"
+    ]
+  },
+  "pageErrors": [],
+  "externalRequests": []
+}

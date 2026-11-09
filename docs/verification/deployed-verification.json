@@ -1,0 +1,28 @@
+{
+  "url": "https://focus-drive.kitan3409-73e.workers.dev",
+  "sampledAt": "2026-10-19T14:50:24.212Z",
+  "rendererBooted": true,
+  "hasDevDiagnostics": false,
+  "webgl2": true,
+  "hubRendered": true,
+  "warmupCompleted": true,
+  "missionStage": "DUAL TASK",
+  "missionTime": "2:54",
+  "hud": {
+    "nav": "100%",
+    "event": "100%",
+    "target": "33%",
+    "levels": "R20 · T29 · SURGE"
+  },
+  "vehicle": "focus-f01-procedural",
+  "missionAbortFlow": true,
+  "serviceWorker": {
+    "registered": true,
+    "controller": true,
+    "cacheName": "focus-drive-ea32d2e805c4",
+    "cachedEntries": 22
+  },
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequests": []
+}

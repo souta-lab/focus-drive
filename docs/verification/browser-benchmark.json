@@ -1,0 +1,580 @@
+{
+  "sampledAt": "2026-10-18T15:28:38.353Z",
+  "environment": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "viewport": "1440x1000",
+    "webglRenderer": "ANGLE (AMD, AMD Radeon RX 6400 (radeonsi navi24 ACO), OpenGL ES 3.2)"
+  },
+  "elapsedMs": 180000,
+  "playedMs": 180000,
+  "completed": true,
+  "aborted": false,
+  "testHarness": true,
+  "frameCount": 10799,
+  "meanFps": 59.991278238092214,
+  "frameP95Ms": 16.70000000001164,
+  "frameP99Ms": 16.80000000000291,
+  "trials": 72,
+  "trialOutcomes": {
+    "CORRECT_REJECTION": 48,
+    "HIT": 24
+  },
+  "stimulusDisplayMs": {
+    "count": 72,
+    "min": 400,
+    "max": 416.6999999999971,
+    "mean": 404.15416666666675
+  },
+  "onsetDelayMs": {
+    "max": 16.700000000000728,
+    "p95": 16.30000000000109
+  },
+  "summary": {
+    "totalValidTrials": 72,
+    "hitRate": 1,
+    "falseAlarmRate": 0,
+    "targetingAccuracy": 1,
+    "dPrime": 4.372506880196517,
+    "hitReactionTimeMedianMs": 183.3000000000011,
+    "navigationAccuracy": 1,
+    "navigation80Threshold": 36,
+    "multitaskingCostPct": null,
+    "measurementQuality": "GOOD",
+    "targeting": {
+      "hits": 24,
+      "misses": 0,
+      "falseAlarms": 0,
+      "correctRejections": 48,
+      "invalid": 0,
+      "validTrials": 72,
+      "targetTrials": 24,
+      "nonTargetTrials": 48,
+      "hitRate": 1,
+      "falseAlarmRate": 0,
+      "accuracy": 1,
+      "dPrime": 4.372506880196517,
+      "reactionTime": {
+        "count": 24,
+        "meanMs": 183.3166666666651,
+        "medianMs": 183.3000000000011,
+        "p90Ms": 183.40000000000146,
+        "varianceMs2": 0.004722222222135316
+      }
+    },
+    "navigation": {
+      "accuracy": 1,
+      "validTimeMs": 179999.9999999868,
+      "insideTimeMs": 179999.9999999868,
+      "meanAbsError": 0.624089919807837,
+      "p95AbsError": 1.7844084706347487,
+      "eventSuccessRate": 1,
+      "eventsPassed": 53,
+      "eventsSucceeded": 53,
+      "driveScore": 1
+    },
+    "threshold": {
+      "estimate": 36,
+      "lower": 20.333904819658486,
+      "upper": 200,
+      "sampleCount": 180.0000000000014,
+      "confidence": "LOW",
+      "method": "weighted-isotonic-80-v1",
+      "fitted": [
+        {
+          "level": 20,
+          "accuracy": 1,
+          "weight": 20.000000000000146
+        },
+        {
+          "level": 21,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 22,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 23,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 24,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 25,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 26,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 27,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 28,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 29,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 30,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 31,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 32,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 33,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 34,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 35,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        },
+        {
+          "level": 36,
+          "accuracy": 1,
+          "weight": 10.000000000000076
+        }
+      ]
+    },
+    "byTask": [
+      {
+        "taskMode": "DUAL",
+        "targeting": {
+          "hits": 24,
+          "misses": 0,
+          "falseAlarms": 0,
+          "correctRejections": 48,
+          "invalid": 0,
+          "validTrials": 72,
+          "targetTrials": 24,
+          "nonTargetTrials": 48,
+          "hitRate": 1,
+          "falseAlarmRate": 0,
+          "accuracy": 1,
+          "dPrime": 4.372506880196517,
+          "reactionTime": {
+            "count": 24,
+            "meanMs": 183.3166666666651,
+            "medianMs": 183.3000000000011,
+            "p90Ms": 183.40000000000146,
+            "varianceMs2": 0.004722222222135316
+          }
+        },
+        "navigation": {
+          "accuracy": 1,
+          "validTimeMs": 179999.9999999868,
+          "insideTimeMs": 179999.9999999868,
+          "meanAbsError": 0.624089919807837,
+          "p95AbsError": 1.7844084706347487,
+          "eventSuccessRate": 1,
+          "eventsPassed": 53,
+          "eventsSucceeded": 53,
+          "driveScore": 1
+        }
+      }
+    ],
+    "multitaskCost": {
+      "costPct": null,
+      "dPrimeDifference": null,
+      "roadAccuracyDifference": null,
+      "confidenceInterval": null,
+      "reason": "World, difficulty, or display conditions do not match",
+      "roadTradeoff": false
+    },
+    "metricVersion": "raw-v1-loglinear-half-trial-isotonic80"
+  },
+  "guides": 11,
+  "guidePhases": [
+    "HIDDEN",
+    "APPROACH",
+    "LOCKABLE",
+    "LOCKING",
+    "CAPTURED",
+    "LOST"
+  ],
+  "maxGuideProgress": 1,
+  "adaptationChanges": [
+    {
+      "tMs": 18000,
+      "axis": "SIGN",
+      "oldLevel": 29,
+      "newLevel": 30,
+      "metricWindowStartMs": 516.7000000000007,
+      "metricWindowEndMs": 18000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9231; evidence=8; change=1; profile=standard"
+    },
+    {
+      "tMs": 20000,
+      "axis": "ROAD",
+      "oldLevel": 20,
+      "newLevel": 21,
+      "metricWindowStartMs": 0,
+      "metricWindowEndMs": 20000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 28000,
+      "axis": "SIGN",
+      "oldLevel": 30,
+      "newLevel": 31,
+      "metricWindowStartMs": 516.7000000000007,
+      "metricWindowEndMs": 28000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9375; evidence=11; change=1; profile=standard"
+    },
+    {
+      "tMs": 30000,
+      "axis": "ROAD",
+      "oldLevel": 21,
+      "newLevel": 22,
+      "metricWindowStartMs": 10000,
+      "metricWindowEndMs": 30000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 38000,
+      "axis": "SIGN",
+      "oldLevel": 31,
+      "newLevel": 32,
+      "metricWindowStartMs": 8533,
+      "metricWindowEndMs": 38000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9412; evidence=12; change=1; profile=standard"
+    },
+    {
+      "tMs": 40000,
+      "axis": "ROAD",
+      "oldLevel": 22,
+      "newLevel": 23,
+      "metricWindowStartMs": 20000,
+      "metricWindowEndMs": 40000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 48000,
+      "axis": "SIGN",
+      "oldLevel": 32,
+      "newLevel": 33,
+      "metricWindowStartMs": 20515.9,
+      "metricWindowEndMs": 48000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9375; evidence=11; change=1; profile=standard"
+    },
+    {
+      "tMs": 50000,
+      "axis": "ROAD",
+      "oldLevel": 23,
+      "newLevel": 24,
+      "metricWindowStartMs": 30000,
+      "metricWindowEndMs": 50000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 58000,
+      "axis": "SIGN",
+      "oldLevel": 33,
+      "newLevel": 34,
+      "metricWindowStartMs": 28498.900000000005,
+      "metricWindowEndMs": 58000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9444; evidence=13; change=1; profile=standard"
+    },
+    {
+      "tMs": 60000,
+      "axis": "ROAD",
+      "oldLevel": 24,
+      "newLevel": 25,
+      "metricWindowStartMs": 40000,
+      "metricWindowEndMs": 60000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 68000,
+      "axis": "SIGN",
+      "oldLevel": 34,
+      "newLevel": 35,
+      "metricWindowStartMs": 38498.50000000001,
+      "metricWindowEndMs": 68000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9412; evidence=12; change=1; profile=standard"
+    },
+    {
+      "tMs": 70000,
+      "axis": "ROAD",
+      "oldLevel": 25,
+      "newLevel": 26,
+      "metricWindowStartMs": 50000,
+      "metricWindowEndMs": 70000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 78000,
+      "axis": "SIGN",
+      "oldLevel": 35,
+      "newLevel": 36,
+      "metricWindowStartMs": 48981.50000000001,
+      "metricWindowEndMs": 78000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9444; evidence=13; change=1; profile=standard"
+    },
+    {
+      "tMs": 80000,
+      "axis": "ROAD",
+      "oldLevel": 26,
+      "newLevel": 27,
+      "metricWindowStartMs": 60000,
+      "metricWindowEndMs": 80000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 88000,
+      "axis": "SIGN",
+      "oldLevel": 36,
+      "newLevel": 37,
+      "metricWindowStartMs": 60480.90000000001,
+      "metricWindowEndMs": 88000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9375; evidence=11; change=1; profile=standard"
+    },
+    {
+      "tMs": 90000,
+      "axis": "ROAD",
+      "oldLevel": 27,
+      "newLevel": 28,
+      "metricWindowStartMs": 70000,
+      "metricWindowEndMs": 90000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 98000,
+      "axis": "SIGN",
+      "oldLevel": 37,
+      "newLevel": 38,
+      "metricWindowStartMs": 68964,
+      "metricWindowEndMs": 98000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9412; evidence=12; change=1; profile=standard"
+    },
+    {
+      "tMs": 100000,
+      "axis": "ROAD",
+      "oldLevel": 28,
+      "newLevel": 29,
+      "metricWindowStartMs": 80000,
+      "metricWindowEndMs": 100000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 108000,
+      "axis": "SIGN",
+      "oldLevel": 38,
+      "newLevel": 39,
+      "metricWindowStartMs": 80946.90000000001,
+      "metricWindowEndMs": 108000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9375; evidence=11; change=1; profile=standard"
+    },
+    {
+      "tMs": 110000,
+      "axis": "ROAD",
+      "oldLevel": 29,
+      "newLevel": 30,
+      "metricWindowStartMs": 90000,
+      "metricWindowEndMs": 110000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 118000,
+      "axis": "SIGN",
+      "oldLevel": 39,
+      "newLevel": 40,
+      "metricWindowStartMs": 88446.6,
+      "metricWindowEndMs": 118000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9412; evidence=12; change=1; profile=standard"
+    },
+    {
+      "tMs": 120000,
+      "axis": "ROAD",
+      "oldLevel": 30,
+      "newLevel": 31,
+      "metricWindowStartMs": 100000,
+      "metricWindowEndMs": 120000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 128000,
+      "axis": "SIGN",
+      "oldLevel": 40,
+      "newLevel": 41,
+      "metricWindowStartMs": 99429.40000000001,
+      "metricWindowEndMs": 128000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9412; evidence=12; change=1; profile=standard"
+    },
+    {
+      "tMs": 130000,
+      "axis": "ROAD",
+      "oldLevel": 31,
+      "newLevel": 32,
+      "metricWindowStartMs": 110000,
+      "metricWindowEndMs": 130000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 138000,
+      "axis": "SIGN",
+      "oldLevel": 41,
+      "newLevel": 42,
+      "metricWindowStartMs": 108929,
+      "metricWindowEndMs": 138000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9412; evidence=12; change=1; profile=standard"
+    },
+    {
+      "tMs": 140000,
+      "axis": "ROAD",
+      "oldLevel": 32,
+      "newLevel": 33,
+      "metricWindowStartMs": 120000,
+      "metricWindowEndMs": 140000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 148000,
+      "axis": "SIGN",
+      "oldLevel": 42,
+      "newLevel": 43,
+      "metricWindowStartMs": 119911.90000000001,
+      "metricWindowEndMs": 148000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9444; evidence=13; change=1; profile=standard"
+    },
+    {
+      "tMs": 150000,
+      "axis": "ROAD",
+      "oldLevel": 33,
+      "newLevel": 34,
+      "metricWindowStartMs": 130000,
+      "metricWindowEndMs": 150000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 158000,
+      "axis": "SIGN",
+      "oldLevel": 43,
+      "newLevel": 44,
+      "metricWindowStartMs": 128894.9,
+      "metricWindowEndMs": 158000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9444; evidence=13; change=1; profile=standard"
+    },
+    {
+      "tMs": 160000,
+      "axis": "ROAD",
+      "oldLevel": 34,
+      "newLevel": 35,
+      "metricWindowStartMs": 140000,
+      "metricWindowEndMs": 160000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 168000,
+      "axis": "SIGN",
+      "oldLevel": 44,
+      "newLevel": 45,
+      "metricWindowStartMs": 138394.5,
+      "metricWindowEndMs": 168000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9444; evidence=13; change=1; profile=standard"
+    },
+    {
+      "tMs": 170000,
+      "axis": "ROAD",
+      "oldLevel": 35,
+      "newLevel": 36,
+      "metricWindowStartMs": 150000,
+      "metricWindowEndMs": 170000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    },
+    {
+      "tMs": 178000,
+      "axis": "SIGN",
+      "oldLevel": 45,
+      "newLevel": 46,
+      "metricWindowStartMs": 149877.4,
+      "metricWindowEndMs": 178000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9412; evidence=12; change=1; profile=standard"
+    },
+    {
+      "tMs": 180000,
+      "axis": "ROAD",
+      "oldLevel": 36,
+      "newLevel": 37,
+      "metricWindowStartMs": 160000,
+      "metricWindowEndMs": 180000,
+      "evidence": "INFERRED_OTC",
+      "reason": "independent posterior=0.9600; evidence=20.0s; change=1; profile=standard"
+    }
+  ],
+  "qualityFlags": [],
+  "coins": {
+    "navigation": 126,
+    "targeting": 24,
+    "guides": 275,
+    "goals": 40,
+    "completion": 10,
+    "total": 475
+  },
+  "storageCompletedMissions": 0,
+  "pageErrors": []
+}

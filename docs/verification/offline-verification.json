@@ -1,0 +1,8 @@
+{
+  "sampledAt": "2026-10-18T15:38:05.986Z",
+  "scenario": "vite preview process killed after first load; reload + garage + mission warmup + pause + abort while unreachable",
+  "offlineReload": true,
+  "offlineNavigation": true,
+  "offlineMissionFlow": true,
+  "pageErrors": []
+}

@@ -1,0 +1,13 @@
+{
+  "name": "FOCUS DRIVE — Find your flow",
+  "short_name": "FOCUS DRIVE",
+  "description": "注意を研ぎ澄ます、3分間のドライブ。ローカルファーストの二重課題ゲーム。",
+  "lang": "ja",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3f2ed",
+  "theme_color": "#f3f2ed",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

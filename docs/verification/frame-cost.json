@@ -1,0 +1,140 @@
+{
+  "sampledAt": "2026-10-19T05:03:57.094Z",
+  "url": "http://127.0.0.1:4173",
+  "durationMs": 45000,
+  "gpu": {
+    "renderer": "ANGLE (AMD, AMD Radeon RX 6400 (radeonsi navi24 ACO), OpenGL ES 3.2)",
+    "maxTexture": 16384
+  },
+  "frameCount": 2701,
+  "hostFrame": {
+    "p50": 16.69999999999709,
+    "p95": 16.700000000004366,
+    "p99": 16.80000000000291,
+    "max": 16.80000000000291
+  },
+  "hostFps": 60.00235477586472,
+  "renderer": {
+    "samples": 96,
+    "drawCalls": {
+      "min": 339,
+      "max": 368,
+      "mean": 352.0625
+    },
+    "cpuFrameMs": {
+      "mean": 2.052083333643774,
+      "max": 6.9000000059604645
+    },
+    "engineFps": {
+      "min": 58,
+      "mean": 59.705263157894734
+    },
+    "pixelRatio": 1
+  },
+  "mission": {
+    "elapsedMs": 45000,
+    "quality": "GOOD",
+    "level": 90,
+    "frames": 2701,
+    "meanFps": 60.002354775863104
+  },
+  "samples": [
+    {
+      "t": 0,
+      "drawCalls": 345,
+      "cpuFrameMs": 2.0999999940395355,
+      "fps": 0,
+      "pixelRatio": 1,
+      "pose": 0
+    },
+    {
+      "t": 1,
+      "drawCalls": 349,
+      "cpuFrameMs": 1.9000000059604645,
+      "fps": 60,
+      "pixelRatio": 1,
+      "pose": 54
+    },
+    {
+      "t": 5,
+      "drawCalls": 341,
+      "cpuFrameMs": 1.800000011920929,
+      "fps": 59,
+      "pixelRatio": 1,
+      "pose": 217
+    },
+    {
+      "t": 9,
+      "drawCalls": 344,
+      "cpuFrameMs": 1.5999999940395355,
+      "fps": 60,
+      "pixelRatio": 1,
+      "pose": 379
+    },
+    {
+      "t": 13,
+      "drawCalls": 362,
+      "cpuFrameMs": 1.9000000059604645,
+      "fps": 59,
+      "pixelRatio": 1,
+      "pose": 545
+    },
+    {
+      "t": 17,
+      "drawCalls": 356,
+      "cpuFrameMs": 2.5,
+      "fps": 60,
+      "pixelRatio": 1,
+      "pose": 725
+    },
+    {
+      "t": 21,
+      "drawCalls": 341,
+      "cpuFrameMs": 1.5999999940395355,
+      "fps": 60,
+      "pixelRatio": 1,
+      "pose": 910
+    },
+    {
+      "t": 25,
+      "drawCalls": 355,
+      "cpuFrameMs": 1.600000023841858,
+      "fps": 60,
+      "pixelRatio": 1,
+      "pose": 1102
+    },
+    {
+      "t": 29,
+      "drawCalls": 351,
+      "cpuFrameMs": 2.7999999821186066,
+      "fps": 59,
+      "pixelRatio": 1,
+      "pose": 1300
+    },
+    {
+      "t": 33,
+      "drawCalls": 339,
+      "cpuFrameMs": 6.9000000059604645,
+      "fps": 60,
+      "pixelRatio": 1,
+      "pose": 1501
+    },
+    {
+      "t": 37,
+      "drawCalls": 361,
+      "cpuFrameMs": 1.7999999821186066,
+      "fps": 60,
+      "pixelRatio": 1,
+      "pose": 1716
+    },
+    {
+      "t": 41,
+      "drawCalls": 368,
+      "cpuFrameMs": 1.9000000059604645,
+      "fps": 60,
+      "pixelRatio": 1,
+      "pose": 1939
+    }
+  ],
+  "pageErrors": []
+}
